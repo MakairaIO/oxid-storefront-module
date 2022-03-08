@@ -1,0 +1,21 @@
+{
+  "name": "marm/oxid-api",
+  "description": "simple API for OXID",
+  "minimum-stability": "stable",
+  "type": "oxideshop-module",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "require": {
+    "symfony/http-foundation": "^5.1"
+  },
+  "extra": {
+    "oxideshop": {
+      "target-directory": "marm/oxid-api"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Marmalade\\OxidApi\\": "../../../source/modules/marm/oxid-api/src"
+    }
+  }
+}
